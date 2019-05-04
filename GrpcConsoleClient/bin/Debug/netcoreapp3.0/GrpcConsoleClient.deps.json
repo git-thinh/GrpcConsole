@@ -1,0 +1,187 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "GrpcConsoleClient/1.0.0": {
+        "dependencies": {
+          "Bond.Grpc.CSharp": "8.1.0",
+          "Grpc": "1.20.1",
+          "Microsoft.NETCore.Platforms": "3.0.0-preview4.19212.13",
+          "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": "3.0.0-preview4-27615-11"
+        },
+        "runtime": {
+          "GrpcConsoleClient.dll": {}
+        }
+      },
+      "Bond.Core.CSharp/8.1.0": {
+        "runtime": {
+          "lib/netstandard1.6/Bond.Attributes.dll": {
+            "assemblyVersion": "8.1.0.100",
+            "fileVersion": "8.1.0.100"
+          },
+          "lib/netstandard1.6/Bond.IO.dll": {
+            "assemblyVersion": "8.1.0.100",
+            "fileVersion": "8.1.0.100"
+          },
+          "lib/netstandard1.6/Bond.Reflection.dll": {
+            "assemblyVersion": "8.1.0.100",
+            "fileVersion": "8.1.0.100"
+          },
+          "lib/netstandard1.6/Bond.dll": {
+            "assemblyVersion": "8.1.0.100",
+            "fileVersion": "8.1.0.100"
+          }
+        }
+      },
+      "Bond.Grpc.CSharp/8.1.0": {
+        "dependencies": {
+          "Bond.Core.CSharp": "8.1.0",
+          "Grpc.Core": "1.20.1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Bond.Grpc.dll": {
+            "assemblyVersion": "8.1.0.100",
+            "fileVersion": "8.1.0.100"
+          }
+        }
+      },
+      "Grpc/1.20.1": {
+        "dependencies": {
+          "Grpc.Core": "1.20.1"
+        }
+      },
+      "Grpc.Core/1.20.1": {
+        "dependencies": {
+          "Grpc.Core.Api": "1.20.1",
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/1.20.1": {
+        "dependencies": {
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview4.19212.13": {},
+      "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview4-27615-11": {},
+      "System.Interactive.Async/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.702"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GrpcConsoleClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bond.Core.CSharp/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D3mMmeRmuC2AcGQqbSjhz8yNDJVypI1P8NYmyNzHdEki2v6SB00fd+GzXf70PLemhaSVmB5jmlf0lToi498lNQ==",
+      "path": "bond.core.csharp/8.1.0",
+      "hashPath": "bond.core.csharp.8.1.0.nupkg.sha512"
+    },
+    "Bond.Grpc.CSharp/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kZ4FRfYAxwr+BKY5niwg9NOwes1EvlNNGptd3tcWmzu0Nq4xjd8YaRlJgeu05gKFwU/dc2S2dG0E4vhcWyb7JA==",
+      "path": "bond.grpc.csharp/8.1.0",
+      "hashPath": "bond.grpc.csharp.8.1.0.nupkg.sha512"
+    },
+    "Grpc/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hI2uprHIaXWmPduVScql6lLDtiTuKy3ig2eOjoS62bS3N7+q0/Ceqi3dcH1zW+jYHFd2CyNBmQNxjrSIZw9rwQ==",
+      "path": "grpc/1.20.1",
+      "hashPath": "grpc.1.20.1.nupkg.sha512"
+    },
+    "Grpc.Core/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-69bHUrKzD8O6js+aFzU8mEWMF0Nt7jEqlloONcVpauuxsg/1pDdIxBAisWu/K+IY5SEeshn+4oAchf9rJoFQzw==",
+      "path": "grpc.core/1.20.1",
+      "hashPath": "grpc.core.1.20.1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gXJoNYR97iQ3mlQ34TCCENJWQUTEl61Y/23/Sjv3dmYv59MppAPUjgSaXzHa20Rj4mNNvddgxTgwOGB+srprEQ==",
+      "path": "grpc.core.api/1.20.1",
+      "hashPath": "grpc.core.api.1.20.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview4.19212.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cBcFp3iIi/c6AK9F/aZxbZaNhWGOLSJD071L9tO8JbyODp38NDKsJ38Xq/KJUCt1EUIlqnyF6PdqOngFuCvD1Q==",
+      "path": "microsoft.netcore.platforms/3.0.0-preview4.19212.13",
+      "hashPath": "microsoft.netcore.platforms.3.0.0-preview4.19212.13.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview4-27615-11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J4YSTnKz4p9+2dGau8a9SOkp57ypLvtz1wQpeS3VC8LDY8DUSmh3hH1yFOB5sIHORIiV21CwuebVAf1co4yrgw==",
+      "path": "runtime.win-x64.microsoft.netcore.dotnetapphost/3.0.0-preview4-27615-11",
+      "hashPath": "runtime.win-x64.microsoft.netcore.dotnetapphost.3.0.0-preview4-27615-11.nupkg.sha512"
+    },
+    "System.Interactive.Async/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C07p0dAA5lGqYUPiPCK3paR709gqS4aMDDsje0v0pvffwzLaxmsn5YQTfZbyNG5qrudPx+BCxTqISnncQ3wIoQ==",
+      "path": "system.interactive.async/3.2.0",
+      "hashPath": "system.interactive.async.3.2.0.nupkg.sha512"
+    }
+  }
+}
