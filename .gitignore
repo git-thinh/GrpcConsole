@@ -1,0 +1,13 @@
+
+.vs/GrpcConsole/v16/Server/sqlite3/storage.ide
+.vs/GrpcConsole/v16/Server/sqlite3/db.lock
+.vs/GrpcConsole/v16/.suo
+.vs/GrpcConsole/DesignTimeBuild/.dtbcache
+.vs/GrpcConsole/config/applicationhost.config
+GrpcConsoleClient/obj/Debug/netcoreapp3.0/GrpcConsoleClient.csprojAssemblyReference.cache
+GrpcConsoleServer/obj/Debug/netcoreapp3.0/GrpcConsoleServer.csprojAssemblyReference.cache
+WcfConsoleServer/obj/project.assets.json
+WcfConsoleServer/obj/WcfConsoleServer.csproj.nuget.cache
+WcfConsoleServer/obj/WcfConsoleServer.csproj.nuget.dgspec.json
+WcfConsoleServer/obj/WcfConsoleServer.csproj.nuget.g.props
+WcfConsoleServer/obj/WcfConsoleServer.csproj.nuget.g.targets
